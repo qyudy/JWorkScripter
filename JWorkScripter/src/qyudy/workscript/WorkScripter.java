@@ -1,4 +1,4 @@
-package qyudy;
+package qyudy.workscript;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.EventQueue;
@@ -41,9 +41,6 @@ import qyudy.common.Utils;
 import qyudy.component.AsyncDefaultListModel;
 import qyudy.component.DefaultListModelWithAsyncInterface;
 import qyudy.component.UndoableEditWithTime;
-import qyudy.workscript.Script;
-import qyudy.workscript.ScriptEnvironment;
-import qyudy.workscript.WorkMode;
 
 public class WorkScripter implements ScriptEnvironment {
 
